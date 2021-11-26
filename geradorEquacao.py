@@ -8,7 +8,7 @@ def fazEquacao():
     equacao = ''
     
     for i in range (tamanhoLinha):
-        valores = choice(['a', 'b', 'c', '2', '3','(', ')', '+', '-', '*'])  # var. que receberá estes carac. aleatoriamente
+        valores = choice(['a', 'b', 'c', '2', '3','(', ')', '+', '-', '*'])  # var. que recebe estes carac. aleatoriamente
         equacao += (valores)
               
     return equacao

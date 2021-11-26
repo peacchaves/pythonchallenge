@@ -20,7 +20,7 @@ def verificar(expressao):
         return "incorrect"  # pilha com caractere = incorreto
   
   
-# entrada = "2(ax)"         # -> Entrada manual
+# entrada = "2(ax)"         # -> Entrada "manual"
 # print(verificar(entrada))  
 
 with open ("equacoes.txt", "r", encoding="utf-8") as arquivo:  # Entrada "automática"  
